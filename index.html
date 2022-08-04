@@ -1,0 +1,111 @@
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>☆JAGRITI PERSONAL SITE</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>Jagriti Grover Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <table cellspacing="20">
+            <tr>
+                <td><img src="profile.png" alt="photo" style="width: 250px; height: 250px;"></td>
+    
+                <td>
+                    <h1>JAGRITI GROVER</h1>
+    
+                    <h3><em>Aspiring <strong>Full Stack Developer</strong></em></h3>
+                    <br>
+                    <h4><em>A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.</em></p>
+             
+    
+                </td>
+            </tr>
+    
+        </table>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <br>
+        <h1>What I Do ?</h1>
+        <br>
+        <h4>
+         <em>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</em>  
+        </h4>
+        <p>
+            I'm currently a 2nd year student pursuing BTech in Computer Science & Engineering.
+            Inside my Technical domain. I'm a doing a Virtual Internship as Software Engineer at J.P. Morgan. I'm a Microsoft Student Learn Ambassador at Microsoft. I'm also a 
+            Content Writer in one of the community.Also, I am a Graphic Designer and done plenty of work in this domain. Other than that, I'm an Internshala Student Partner at Internshala.
+            I'm Campus Business Manager at PrepBytes and Ninja Entrepreneur at Coding Ninjas.
+            I'm also a public speaker and organised plenty of events.Apart from coding , designing & development, you’ll find me reading and writing poetry(one already published), quotes and other day to day content. 
+            I’ve been dealing with different students for 3 years being a Class Representative so I’ve strong urge to lead a team with extensive management experience.
+            I am a strong believer in ongoing learning and spend dozens of hours attending workshops , webinars and reading novels to gain knowledge of various aspects to shape a better personality on every chapter of my life.
+            </p>
+            <p>
+            Spreading what you have require the cup to be filled before pour is what I believe . So I keep on exploring to see the cup of my tea!
+    
+        </p>
+    </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='html.svg'>
+          <img title='CSS' src='css.svg'>
+          <img title='Javascript' src='javascript.svg'>
+          <img title='Node.JS' src='node.svg'>
+          <img title='React' src='react.svg'>
+          <img title='MongoDB' src='mongodb.svg'>
+          <img title='Firebase' src='firebase.svg'>
+          <img title='Redux' src='redux.svg'>
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='https://tse1.mm.bing.net/th?id=OIP.Wy99YX5aMrerVo7PNBFQlAHaJr&pid=Api&P=0'/>
+            <div class='projectDescription'>
+              <h4>Bakery Management System</h4>
+              <p> The bakery management system provides you with your bakery’s data.
+                Daily sales, staff, accounting, customer, delivery reports and more can be done</p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='https://yt3.ggpht.com/a/AATXAJyzyrPJMwSCUxtTlY-MQ9sEqX8XHm8MYq4yr7e6Gw=s900-c-k-c0xffffffff-no-rj-mo'/>
+            <div class='projectDescription'>
+              <h4>Netflix Clone</h4>
+              <p>Created the front-end part of Netflix</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
